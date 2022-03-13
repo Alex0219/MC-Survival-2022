@@ -1,0 +1,107 @@
+name: WorldManagement
+main: de.fileinputstream.mytraz.worldmanagement.Bootstrap
+depend: [ProtocolLib]
+version: 1.0
+description: MyTraz World Management
+author: FileInputStream
+api-version: 1.16
+loadbefore:
+  - ProtocolLib
+
+commands:
+    tpworld:
+        aliases: [world]
+    createworld:
+    removeresident:
+        aliases: [deny,kickplayer,remove]
+    addresident:
+        aliases: [invite,addplayer,add]
+    acceptinvite:
+        aliases: [join,accept]
+    newworldspawn:
+
+    worldinfo:
+        aliases: [info]
+    worlds:
+        aliases: [listworlds]
+    setpvp:
+        aliases: [pvp,togglepvp]
+    tutorial:
+        aliases: [help,tut]
+    gm:
+      aliases: [gamemode,gmode]
+    vanish:
+      aliases: [v]
+    ontime:
+      aliases: [spielzeit,playtime]
+    fly:
+
+    setwarp:
+
+    ec:
+      aliases: [bagpack,enderchest,rucksack]
+
+    warp:
+
+    delwarp:
+
+    chatlog:
+
+    rang:
+
+    listbackups:
+
+    restorebackup:
+
+    dobackup:
+
+    vote:
+
+    build:
+
+    setspawn:
+
+    residents:
+
+    spawn:
+
+    invsee:
+
+    cc:
+      aliases: [chatclear,leerdenchat]
+
+    denybackup:
+
+    createvotechest:
+
+    home:
+
+    sethome:
+
+    discord:
+
+    tp:
+
+    tpa:
+
+    tpaaccept:
+
+    tpadeny:
+
+    tpahere:
+
+    tpahereaccept:
+
+    tpahereall:
+
+    tpaheredeny:
+
+    tpatoggle:
+
+    lockworld:
+
+    afk:
+
+    whereami:
+      aliases: [ wai,wobinich ]
+

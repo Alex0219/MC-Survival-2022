@@ -1,0 +1,4 @@
+name: NPC
+version: 1.0
+author: Alexander Fiedler
+main: de.alex0219.npcutil.NPCBootstrap
